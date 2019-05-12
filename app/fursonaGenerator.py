@@ -14,10 +14,6 @@ async def on_message(message):
         msg = 'Your fursona is:\n\t*{0}*\n\nhttps://www.google.com/search?q={1}'.format(animal[0], '+'.join(animal[0].split()))
         await message.channel.send(msg)
 
-    if message.content == "?logout":
-        print('logged out by {0}'. format(message.author))
-        await client.logout()
-
 
 @client.event
 async def on_ready():
