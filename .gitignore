@@ -5,6 +5,7 @@ __pycache__/
 
 # User-defined ignores
 auth.py
+debug
 
 # C extensions
 *.so
